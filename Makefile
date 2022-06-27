@@ -4,3 +4,5 @@ lint-phpstan:
 lint-phpcs:
 	vendor/bin/phpcs -q --report=emacs src
 	
+fix-phpcs:
+	vendor/bin/phpcbf src
